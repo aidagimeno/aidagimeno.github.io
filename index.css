@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #F8EEE7;
+  text-align: center;
+}
 
 .header {
   padding: 2px;
@@ -24,10 +30,4 @@
   font-size: 15px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.bodyclass{
-    padding: 5px;
-    background: #F8EEE7;
-    text-align: center;
 }

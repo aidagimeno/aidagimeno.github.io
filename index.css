@@ -24,6 +24,7 @@ html, body {
 }
 
 .buttonsh {
+  text-decoration: none;
   background: #F4DECB;
   color: #49274A;
   border: none;

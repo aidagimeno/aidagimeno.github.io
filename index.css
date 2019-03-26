@@ -1,0 +1,33 @@
+
+.header {
+  padding: 2px;
+  text-align: center;
+  background: #94618E;
+  color: white;
+  font-size: 10px;
+  font-family: "Lucida Console"
+}
+
+.subheader {
+  padding: 2px;
+  text-align: center;
+  background: #F4DECB;
+  color: #49274A;
+  font-size: 10px;
+  font-family: "Lucida Console"
+}
+
+.buttonsh {
+  background: #F4DECB;
+  color: #49274A;
+  border: none;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bodyclass{
+    padding: 5px;
+    background: #F8EEE7;
+    text-align: center;
+}

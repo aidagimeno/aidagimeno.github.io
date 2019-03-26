@@ -7,9 +7,10 @@ html, body {
 
 .header {
   padding: 2px;
+  text-decoration:none;
   text-align: center;
   background: #94618E;
-  color: white;
+  color: #F8EEE7;
   font-size: 10px;
   font-family: "Lucida Console"
 }

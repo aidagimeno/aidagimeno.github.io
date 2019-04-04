@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: 'Mightype';
+    src: url('Mightype.woff') format('woff');
+}
+
+@font-face {
     font-family: 'Paranoid';
     src: url('paranoid.woff') format('woff');
 }
@@ -48,6 +53,16 @@ html, body {
   color: #F8EEE7;
   font-size: 20px;
   font-family: "Milkshake"
+}
+
+.headerb {
+  padding: 2px;
+  text-decoration:none;
+  text-align: center;
+  background: #94618E;
+  color: #F8EEE7;
+  font-size: 20px;
+  font-family: "Mightype"
 }
 
 .subheader {

@@ -65,6 +65,16 @@ html, body {
   font-family: "Mightype"
 }
 
+.headerc {
+  padding: 2px;
+  text-decoration:none;
+  text-align: center;
+  background: #94618E;
+  color: #F8EEE7;
+  font-size: 20px;
+  font-family: "GreatDay"
+}
+
 .subheader {
   padding: 2px;
   text-align: center;

@@ -18,7 +18,13 @@
 @font-face {
     font-family: 'Great Day';
     src: url('GreatDay.woff2') format('woff2'),
-        url('GreatDay.woff') format('woff');
+        url('GreatDay.woff') format('woff'),
+        url('GreatDay.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Milkshake';
+    src: url('Milkshake.woff') format('woff');
 }
 
 html, body {
@@ -41,7 +47,7 @@ html, body {
   background: #94618E;
   color: #F8EEE7;
   font-size: 20px;
-  font-family: "Great Day"
+  font-family: "GreatDay"
 }
 
 .subheader {

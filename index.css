@@ -49,6 +49,19 @@ a {
   text-decoration:none;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.frase {
+  font-size: 60px;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
 .header {
   padding: 2px;
   text-decoration:none;

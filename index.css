@@ -62,6 +62,21 @@ a {
   left: 100px;
 }
 
+.ima {
+  position: relative;
+
+}
+
+.imgen {
+  position: absolute;
+  width: 0px;
+  z-index: 10;
+}
+
+.ima:hover + .imgen {
+  width:720px;
+  margin-right: 500px
+}
 .header {
   padding: 2px;
   text-decoration:none;

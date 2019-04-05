@@ -133,6 +133,6 @@ a {
 }
 
 .gallery img:hover {
-  filter: grayscale(50%);
+  filter: grayscale(25%);
   transform: scale(1.02);
 }

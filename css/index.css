@@ -88,7 +88,7 @@ a {
   height: 120px;
   text-decoration:none;
   text-align: center;
-  background: #94618E;
+  background: #610B4B;
 
 
 
@@ -112,22 +112,22 @@ a {
 
 .buttonsh {
   text-decoration: none;
-  background: #94618E;
+  background: #610B4B;
   color: #FFFFFF;
   border: none;
-  font-size: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  font-size: 1.2vw;
+  padding-left: 1.6vw;
+  padding-right: 1.6vw;
+  padding-top: 0.4vw;
+  padding-bottom: 0.4vw;
   display: inline-block;
-  margin-bottom: 5px;
-  border-radius: 10px;
+  margin-bottom: 0.4vw;
+  border-radius: 0.4vw;
 }
 
 .buttonsh:hover {
   background-color: #FFFFFF;
-  color: #49274A;
+  color: #610B4B;
 }
 
 .gallery{

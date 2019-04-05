@@ -1,35 +1,35 @@
 @font-face {
     font-family: 'Great Day Bold';
-    src: url('GreatDayBold.woff2') format('woff2'),
-        url('GreatDayBold.woff') format('woff');
+    src: url('fonts/GreatDayBold.woff2') format('woff2'),
+        url('fonts/GreatDayBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Artifika';
-    src: url('Artifika.woff') format('woff');
+    src: url('fonts/Artifika.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Mightype';
-    src: url('Mightype.woff') format('woff');
+    src: url('fonts/Mightype.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Paranoid';
-    src: url('paranoid.woff') format('woff');
+    src: url('fonts/paranoid.woff') format('woff');
 }
 
 
 @font-face {
     font-family: 'Great Day';
-    src: url('GreatDay.woff2') format('woff2'),
-        url('GreatDay.woff') format('woff'),
-        url('GreatDay.svg') format('svg');
+    src: url('fonts/GreatDay.woff2') format('woff2'),
+        url('fonts/GreatDay.woff') format('woff'),
+        url('fonts/GreatDay.svg') format('svg');
 }
 
 @font-face {
     font-family: 'Milkshake';
-    src: url('Milkshake.woff') format('woff');
+    src: url('fonts/Milkshake.woff') format('woff');
 }
 
 html, body {

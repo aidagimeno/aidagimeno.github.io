@@ -43,6 +43,7 @@ html, body {
     bottom: 0;
     width: 100%;
     text-decoration:none;
+    position: relative;
 }
 
 a {
@@ -56,10 +57,10 @@ a {
 }
 
 .frase {
-  font-size: 60px;
+  font-size: 50px;
   position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 100px;
+  right: 0px;
 }
 
 .header {
@@ -135,4 +136,24 @@ a {
 .gallery img:hover {
   filter: grayscale(25%);
   transform: scale(1.02);
+}
+
+.calendarentry h1{
+  font-size: 15px;
+  left: 200px;
+  position:absolute;
+}
+
+.calendarentry .buttonsh {
+  right: 200px;
+  position:absolute;
+}
+
+.calendarentry h1,p {
+  display: inline-block;
+}
+
+.calendarentry:hover {
+  color: #49274A;
+  background: #515A5A; 
 }

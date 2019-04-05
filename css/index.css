@@ -149,11 +149,13 @@ a {
   position:absolute;
 }
 
+
+
 .calendarentry h1,p {
   display: inline-block;
 }
 
 .calendarentry:hover {
   color: #49274A;
-  background: #515A5A; 
+  background: #515A5A;
 }

@@ -39,11 +39,17 @@ html, body {
   text-align: center;
 }
 
-#footer {
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
     bottom: 0;
     width: 100%;
     text-decoration:none;
     position: relative;
+    background: #610B4B;
 }
 
 a {
@@ -63,51 +69,19 @@ a {
   right: 0px;
 }
 
-.header {
-  padding: 2px;
-  text-decoration:none;
-  text-align: center;
-  background: #94618E;
-  color: #F8EEE7;
-  font-size: 20px;
-  font-family: "Milkshake"
-}
-
-.headerb {
-  padding: 2px;
-  text-decoration:none;
-  text-align: center;
-  background: #94618E;
-  color: #F8EEE7;
-  font-size: 20px;
-  font-family: "Mightype"
-}
 
 .headerc {
-  padding: 0.2vw;
   height: 9vw;
   text-decoration:none;
   text-align: center;
   background: #610B4B;
-
-
-
 }
 
 .headerc h1 {
   display: inline-block;
   font-family: "Great Day";
   font-size: 3vw;
-  color: #F4DECB;
-}
-
-.subheader {
-  padding: 2px;
-  text-align: center;
-  background: #F4DECB;
-  color: #49274A;
-  font-size: 10px;
-  font-family: "Lucida Console"
+  color: #FFFFFF;
 }
 
 .buttonsh {
@@ -146,24 +120,7 @@ a {
   transform: scale(1.02);
 }
 
-.calendarentry h1{
-  font-size: 15px;
-  left: 200px;
-  position:absolute;
-}
 
-.calendarentry .buttonsh {
-  right: 200px;
-  position:absolute;
-}
-
-
-
-.calendarentry h1,p {
-  display: inline-block;
-}
-
-.calendarentry:hover {
-  color: #49274A;
-  background: #515A5A;
+* {
+  box-sizing: border-box;
 }

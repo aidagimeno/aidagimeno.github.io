@@ -62,7 +62,7 @@ a {
   text-decoration:none;
 }
 
-.container {
+.containerx {
   position: relative;
   text-align: center;
   color: white;
@@ -125,6 +125,32 @@ a {
   filter: grayscale(25%);
   transform: scale(1.02);
 }
+
+.titulo {
+  position: absolute;
+  top:2.5vw;
+  right:0;
+}
+
+.menu {
+  top:3vw;
+}
+
+@media (max-width:576px) {
+  .titulo{
+      left: 32vw;
+      margin-bottom: 2vw;
+      font-size: 4vw;
+  }
+
+.buttonsh {
+  font-size: 2vw;
+}
+
+.headerc {
+  height: 14vw;
+}
+
 
 
 * {

@@ -60,9 +60,10 @@ div {
 }
 
 .yout {
-  width: 560px;
-  height: 315px;
+  width: 98%;
+  height: 28vw;
   margin-top: -10px;
+  margin-bottom: 10px;
 
 }
 
@@ -175,7 +176,8 @@ a {
   }
 
   .yout {
-    width: 90%;
+    width: 98%;
+    height: 60vw;
   }
 
 .buttonsh {

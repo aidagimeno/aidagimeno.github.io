@@ -59,6 +59,13 @@ div {
   padding-bottom: 65px;
 }
 
+.yout {
+  width: 560px;
+  height: 315px;
+  margin-top: -10px;
+
+}
+
 .footer {
   height: 65px;
     bottom: 0;
@@ -148,7 +155,14 @@ a {
   top:3vw;
 }
 
-
+.descvideo{
+  margin-top: 10px;
+  text-align: center;
+  border-color: #610B4B;
+  border-width: 2px;
+  border-style: solid;
+  color: #610B4B;
+}
 
 @media (max-width:576px) {
   .titulo{
@@ -158,6 +172,10 @@ a {
       left: 0;
       right: 0;
       font-size: 4vw;
+  }
+
+  .yout {
+    width: 90%;
   }
 
 .buttonsh {

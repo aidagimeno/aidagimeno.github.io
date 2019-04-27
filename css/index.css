@@ -56,11 +56,11 @@ div {
 }
 
 #content-wrap {
-  padding-bottom: 3.8vw;
+  padding-bottom: 65px;
 }
 
 .footer {
-  height: 3.8vw;
+  height: 65px;
     bottom: 0;
     width: 100%;
     margin-left: -15px;

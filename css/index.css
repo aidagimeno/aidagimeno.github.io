@@ -92,6 +92,14 @@ a {
   text-decoration:none;
 }
 
+.filaagenda {
+  border-left: 5px solid #610B4B;
+  border-right: 5px solid #610B4B;
+  border-top: 1px outset #610B4B;
+  border-bottom: 1px outset #610B4B;
+
+}
+
 .containerx {
   position: relative;
   text-align: center;
@@ -138,6 +146,11 @@ a {
 .buttonsh:hover {
   background-color: #FFFFFF;
   color: #610B4B;
+}
+
+.filaagenda:hover {
+    background: #610B4B;
+    color: white;
 }
 
 .gallery{

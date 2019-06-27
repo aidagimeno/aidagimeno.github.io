@@ -7,7 +7,7 @@ function main (){
     if (contador == 1) {
       contador = 0;
       $('.menu').animate({
-        left: '30%'
+        left: '25%'
       });
     } else {
       contador = 1;

@@ -189,6 +189,12 @@ a {
   color: #610B4B;
 }
 
+@media (min-width:576px) {
+  .span-menu {
+    display: none;
+  }
+}
+
 @media (max-width:576px) {
   .titulo{
       position: absolute;
@@ -199,13 +205,41 @@ a {
       font-size: 4vw;
   }
 
+  .span-menu{
+      padding-top: 2vw;
+  }
+
+  .bt-menu{
+    text-decoration: none;
+    color: white;
+    font-size: 6vw;
+  }
+
+  .bt-menu:hover {
+    color: grey;
+  }
+
+  .menu {
+    position: fixed;
+    height: 100%;
+    right: -100%;
+    margin-top: 0;
+  }
+
+.menu a{
+  display: block;
+  width: 40%;
+  border-top: 1px solid white;
+  margin:0;
+}
 
 .buttonsh {
   font-size: 2vw;
+  border-radius: 0;
 }
 
 .headerc {
-  height: 14vw;
+  height: 10vw;
 }
 
 

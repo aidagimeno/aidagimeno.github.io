@@ -215,6 +215,9 @@ a {
     font-size: 10vw;
   }
 
+.bt-menu:hover {
+  color: white;
+}
 
   .menu {
     position: fixed;

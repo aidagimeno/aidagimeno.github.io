@@ -7,12 +7,12 @@ function main (){
     if (contador == 1) {
       contador = 0;
       $('.menu').animate({
-        left: '60%'
+        left: '30%'
       });
     } else {
       contador = 1;
       $('.menu').animate({
-        left: '140%'
+        left: '-100%'
       });
     }
 

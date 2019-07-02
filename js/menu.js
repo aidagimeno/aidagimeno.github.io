@@ -6,14 +6,10 @@ function main (){
   $('.bt-menu').click(function(){
     if (contador == 1) {
       contador = 0;
-      $('.menu').animate({
-        left: '25%'
-      });
+      $('.menu').show();
     } else {
       contador = 1;
-      $('.menu').animate({
-        left: '-100%'
-      });
+      $('.menu').hide();
     }
 
   });

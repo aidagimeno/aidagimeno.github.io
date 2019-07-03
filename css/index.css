@@ -93,10 +93,11 @@ a {
 }
 
 .filaagenda {
-  border-left: 5px solid #610B4B;
-  border-right: 5px solid #610B4B;
-  border-top: 1px outset #610B4B;
-  border-bottom: 1px outset #610B4B;
+  border-left: 0.6vw solid #610B4B;
+  border-right: 0.6vw solid #610B4B;
+  border-top: 0.1vw outset #610B4B;
+  border-bottom: 0.1vw outset #610B4B;
+  font-size: 1.2vw;
 
 }
 
@@ -190,6 +191,12 @@ a {
   color: #610B4B;
 }
 
+.textagenda {
+  margin-left: 20vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
 @media (min-width:576px) {
   .span-menu {
     display: none;
@@ -197,6 +204,20 @@ a {
 }
 
 @media (max-width:576px) {
+
+  .tagenda {
+    margin-bottom: 1vw;
+  }
+
+  .textagenda {
+    margin-left: 5vw;
+    font-size: 5vw;
+  }
+
+  .filaagenda{
+    font-size: 1.8vw;
+  }
+
   .titulo{
       position: absolute;
       margin-left: auto;

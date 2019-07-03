@@ -6,10 +6,10 @@ function main (){
   $('.bt-menu').click(function(){
     if (contador == 1) {
       contador = 0;
-      $('.menu').show();
+      $('.menu').css("display", "block");
     } else {
       contador = 1;
-      $('.menu').hide();
+      $('.menu').css("display", "none");
     }
 
   });

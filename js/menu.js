@@ -9,7 +9,7 @@ function main (){
       $('.menu').css("display", "block");
     } else {
       contador = 1;
-      $('.menu').css("display", "none");
+      location.reload();
     }
 
   });

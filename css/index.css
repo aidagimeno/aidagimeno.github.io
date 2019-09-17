@@ -239,10 +239,6 @@ a {
     margin-bottom: 1vw;
   }
 
-  .textagenda {
-    margin-left: 5vw;
-    font-size: 5vw;
-  }
 
   .filaagenda{
     font-size: 1.8vw;
@@ -304,4 +300,41 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+
+.textagenda1 {
+  margin-left: 15vw;
+  font-size: 4vw;
+  margin-top: 2vw;
+}
+
+.textagenda2 {
+  margin-left: 15vw;
+  font-size: 3vw;
+  margin-top: -1vw;
+  font-weight: bold;
+}
+
+.textagenda3 {
+  margin-left: 15vw;
+  margin-top: -1vw;
+  font-size: 2.4vw;
+}
+
+.textagenda4 {
+  margin-left: 15vw;
+  margin-top: -1vw;
+  font-size: 2vw;
+}
+
+.textagenda5 {
+  margin-left: 15vw;
+  margin-top: -1vw;
+  font-size: 2vw;
+  color:  #610B4B;
+  text-decoration: none;
+}
+
 }

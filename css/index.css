@@ -191,12 +191,42 @@ a {
   color: #610B4B;
 }
 
-.textagenda {
-  margin-left: 20vw;
+.textagenda1 {
+  margin-left: 15vw;
   font-size: 2vw;
   margin-top: 2vw;
 }
 
+.textagenda2 {
+  margin-left: 15vw;
+  font-size: 1.5vw;
+  margin-top: -1vw;
+  font-weight: bold;
+}
+
+.textagenda3 {
+  margin-left: 15vw;
+  margin-top: -1vw;
+  font-size: 1.2vw;
+}
+
+.textagenda4 {
+  margin-left: 15vw;
+  margin-top: -1vw;
+  font-size: 1vw;
+}
+
+.textagenda5 {
+  margin-left: 15vw;
+  margin-top: -1vw;
+  font-size: 1vw;
+  color:  #610B4B;
+  text-decoration: none;
+}
+
+.textagenda5:hover{
+  color:  #966FD6;
+}
 @media (min-width:576px) {
   .span-menu {
     display: none;

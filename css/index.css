@@ -129,6 +129,11 @@ a {
   color: #FFFFFF;
 }
 
+.textobiografia {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
 .buttonsh {
   text-decoration: none;
   background: #610B4B;
